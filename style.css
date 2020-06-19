@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Open sans', sans-serif;
 	text-decoration: none;
 	list-style: none;
 }
@@ -21,7 +21,8 @@ header{
 	top: 0;
 	width: 100%;
 	padding: 5px 0;
-	background: #12263F;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(218,0,255,1) 100%);
 }
 
 header img{
@@ -84,6 +85,7 @@ header .contenedor{
 }
 
 .menu a{
+	font-weight: 700;
 	color: #F9FBFD;
 }
 
@@ -100,7 +102,7 @@ header .contenedor{
 		position: absolute;
 		top: 85px;
 		right: 0px;
-		background: #0b1827;
+		background: #0a60d5;
 		width: 175px;
 		height: 314px;
 		padding: 35px;
